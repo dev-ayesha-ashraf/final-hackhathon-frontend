@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { useNavigate } from "react-router-dom"
 
 export function Subnav() {
-  const navigate = useNavigate();
+    const navigate = useNavigate();
 
     function handleLogout() {
         navigate("/")
@@ -13,7 +13,7 @@ export function Subnav() {
         <div className="bg-blue-500 p-2">
             <div className="container mx-auto flex justify-between items-center">
                 <div className="text-white font-bold text-lg">Welcome to Project Dashboard</div>
-                <div className="hidden md:flex space-x-4">
+                <div className="flex-col md:flex space-x-4">
                     <button className="text-white hover:bg-blue-700 px-3 py-1 rounded"><NavLink to="/contact">Submit Project </NavLink></button>
                     <button className="text-white hover:bg-blue-700 px-3 py-1 rounded"><NavLink to="/view">View project</NavLink> </button>
                     <button className="text-white hover:bg-blue-700 px-3 py-1 rounded" onClick={handleLogout}>logout</button>
