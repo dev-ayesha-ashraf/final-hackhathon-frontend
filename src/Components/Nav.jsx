@@ -37,7 +37,7 @@ export function Nav() {
                     top-[68px] font-semibold w-screen h-screen m-0`}>
                         <li className="p-6 w-full"><NavLink to="/">Home</NavLink></li>
                         <li className="p-6 w-full"><NavLink to="/about">About</NavLink></li>
-                        <li className="p-6 w-full"><NavLink to="/features">Features</NavLink></li>
+                        <li className="p-6 w-full"><NavLink to="/service">Services</NavLink></li>
                         <li className="p-6 w-full"><NavLink to="/register">Register</NavLink></li>
                         <li className="p-6 w-full"><NavLink to="/login">LogIn</NavLink></li>
 
