@@ -4,7 +4,7 @@ import { Subnav } from "../Components/subnav";
 export function View() {
     const [contacts, setContacts] = useState([])
     useEffect(() => {
-      axios.get(`https://final-hackhathon-backend.vercel.app/`)
+      axios.get(`https://cautious-tuna-flip-flops.cyclic.app/`)
         .then(response => setContacts(response.data))
         .catch(error => console.error(error));
     }, []);

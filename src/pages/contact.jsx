@@ -32,7 +32,7 @@ export const Contact = () => {
 
     try {
       // Assuming your API call and data saving logic is correct
-      const response = await fetch(`https://final-hackhathon-backend.vercel.app/contact`, {
+      const response = await fetch(`https://cautious-tuna-flip-flops.cyclic.app/contact`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

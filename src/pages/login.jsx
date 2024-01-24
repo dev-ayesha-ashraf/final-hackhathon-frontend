@@ -22,7 +22,7 @@ export const Login = () => {
     e.preventDefault();
     // Add your login logic here
     try {
-      const responce = await fetch(`https://final-hackhathon-backend.vercel.app/api/auth/login`, {
+      const responce = await fetch(`https://cautious-tuna-flip-flops.cyclic.app/api/auth/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

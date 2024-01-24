@@ -24,7 +24,7 @@ export const Register = () => {
         e.preventDefault();
         console.log(user);
         try {
-            const responce = await fetch(`https://final-hackhathon-backend.vercel.app/api/auth/register`, {
+            const responce = await fetch(`https://cautious-tuna-flip-flops.cyclic.app/api/auth/register`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
